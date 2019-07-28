@@ -1,1 +1,5 @@
-# empty
+# it can be called in tests as => user = users(:michael)
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
