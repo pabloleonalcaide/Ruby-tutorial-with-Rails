@@ -3,3 +3,68 @@ michael:
   name: Michael Example
   email: michael@example.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
+
+lana:
+  name: Lana Kane
+  email: hands@example.gov
+  password_digest: <%= User.digest('password') %>
+
+mallory:
+  name: Mallory Archer
+  email: boss@example.gov
+  password_digest: <%= User.digest('password') %>
+
+bob:
+  name: Bob Archer
+  email: bob@example.gov
+  password_digest: <%= User.digest('password') %>
+  
+jane:
+  name: Jane Kane
+  email: jane@example.gov
+  password_digest: <%= User.digest('password') %>
+
+rob:
+  name: Rob Archer
+  email: rob@example.gov
+  password_digest: <%= User.digest('password') %>
+
+dean:
+  name: Dean Winchester
+  email: dean@example.gov
+  password_digest: <%= User.digest('password') %>
+will:
+  name: Will Kane
+  email: will@example.gov
+  password_digest: <%= User.digest('password') %>
+
+lara:
+  name: Lara Archer
+  email: laraboss@example.gov
+  password_digest: <%= User.digest('password') %>
+
+paul:
+  name: Paul Archer
+  email: paul@example.gov
+  password_digest: <%= User.digest('password') %>
+
+john:
+  name: John Kane
+  email: john@example.gov
+  password_digest: <%= User.digest('password') %>
+
+flink:
+  name: Flink Archer
+  email: flink@example.gov
+  password_digest: <%= User.digest('password') %>
+
+sam:
+  name: Sam Winchester
+  email: sam@example.gov
+  password_digest: <%= User.digest('password') %>

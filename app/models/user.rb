@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
     validates :email, presence: true, length: { maximum: 255 }, 
         format: {with: valid_mail_regex}, 
         uniqueness: { case_sensitive: false }
-    validates :password, presence: true, length: { minimum: 6 }
+    validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
     has_secure_password  # to works, it requires an attribure 'pasword_digest' in the model
 
     # Returns the hash digest of the given string.

@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       log_in user  # sessions_helper#log_in
       # if clicked remember_me checkbox
       params[:session][:remember_me] == '1' ? remember(user) : forget(user)
-      redirect_to user
+      redirect_back_or user  # see helper
     else
       flash.now[:danger] = 'Invalid email/password combination' # Not quite right!
       render 'new'
