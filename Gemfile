@@ -10,7 +10,7 @@ gem 'sass-rails',           '6.0.0'
 gem 'uglifier',             '2.7.2'
 gem 'coffee-rails',         '4.1.0'
 gem 'jquery-rails',         '>= 4.0.4'
-gem 'turbolinks',           '2.3.0'
+gem 'turbolinks',           '5.2.1'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '1.1.0', group: :doc
 
