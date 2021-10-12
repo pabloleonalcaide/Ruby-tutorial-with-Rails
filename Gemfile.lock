@@ -102,11 +102,11 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     multi_json (1.13.1)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pg (0.17.1)
-    puma (4.3.5)
+    puma (5.5.1)
       nio4r (~> 2.0)
     rack (1.6.13)
     rack-test (0.6.3)
